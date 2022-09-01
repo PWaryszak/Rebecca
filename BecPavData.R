@@ -115,7 +115,7 @@ ggplot(soil_till_rehab, aes(x= Treatment, y= AV, color=Treatment )) +
   scale_y_continuous(limits = c(0, 1))+
   scale_color_manual(values = c("brown", "lightblue", "darkblue","darkgreen"))+
   labs(x= "", shape = "Site Type: ",
-       y = bquote('Soil C-stock since rehabiliatation  ' (Mg*~ha^-1*~year^-1)))+
+       y = bquote('Soil Carbon Accretion Rate  ' (Mg*~ha^-1*~year^-1)))+
   theme_bw() +
   theme(axis.text.x = element_text(size = 16, color = "black"),
         axis.text.y = element_text(size = 16, color = "black"),
